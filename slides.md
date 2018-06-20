@@ -340,6 +340,32 @@ package.cpath
 ]
 
 ---
+# Как работает require в Lua?
+
+--
+
+## `require('module')`
+
+`package.loaded['module']` ?
+
+--
+
+1. <b>`package.loaders[1]`</b> - ищет в package.preload
+
+--
+
+2. <b>`package.loaders[2]`</b> - ищет в package.path
+
+--
+
+3. <b>`package.loaders[3]`</b> - ищет в package.cpath
+
+--
+
+4. <b>`package.loaders[4]`</b> - C root
+
+
+---
 
 .left.img-height100[
 ![i](images/packages-tree.png)
@@ -564,11 +590,6 @@ app.init({ ... })
 
 ---
 class: center, middle, space
-
-# igorcoding/tarantool-spacer
-
----
-class: center, middle
 
 # igorcoding/tarantool-spacer
 
