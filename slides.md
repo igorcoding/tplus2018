@@ -15,37 +15,7 @@ class: center, middle
 ]
 
 ---
-
 layout: false
-
-# Небольшая биография
-
---
-
-<b>2015-2016</b> – Облако@Mail.Ru
-
---
-
-<b>2016+</b> – KTS Studio
-
---
-
-<br/>
-Более <b>15</b> запущенных проектов на Tarantool
-
---
-
-<b>EV::Tarantool16</b> – коннектор для 1.6+ для Perl
-
---
-
-<b>asynctnt</b> – asyncio-коннектор для Python 3
-
---
-
-<b>spacer</b> – модуль для управления спейсами в Tarantool
-
----
 class: center, middle
 
 # Типичные проблемы при создании приложения на Tarantool
@@ -123,11 +93,6 @@ class: image-text
 ## Плюсы:
 
 - Модульное разделение кода
-]
-
---
-
-.txt[
 - Поддерживать проще
 ]
 
@@ -145,11 +110,6 @@ class: image-text
 ## Минусы:
 
 - Конфигурация вместе с кодом
-]
-
---
-
-.txt[
 - Зависимость от внешних модулей – через систему
 ]
 
@@ -741,35 +701,3 @@ class: center, middle
 
 # Спасибо за внимание :)
 
----
-
-.right[
-## [tarantool.org](https://tarantool.org/doc)
-]
-.left[
-## Documentation:
-]
-.clear[]
-.right[
-##[try.tarantool.org](https://tarantool.org/doc)
-]
-.left[
-## Try it online:
-]
-.clear[]
-
-.right[
-##[github.com/tarantool](https://github.com/tarantool)
-]
-.left[
-## Explore it:
-]
-.clear[]
-
-.smallimg[
-![i](images/tarantool1.svg)
-]
-
-.lastquote[
-### Questions?
-]
